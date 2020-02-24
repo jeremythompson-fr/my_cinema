@@ -1,0 +1,63 @@
+/* This stylesheet is written in BEM where
+Block = .blocks
+Element = .block__element
+Modifier = .block__element--modifier / .block--modifier */
+
+
+/* Blocks **************************************************/
+
+
+}
+.col-6 {
+    width: 50%;
+}
+.col-7 {
+    width: 58.33%;
+}
+.col-8 {
+    width: 66.66%;
+}
+.col-9 {
+    width: 75%;
+}
+.col-10 {
+    width: 83.33%;
+}
+.col-11 {
+    width: 91.66%;
+}
+.col-12 {
+    width: 100%;
+}
+[class*="col-"] {
+    float: left;
+    padding: 15px;
+    border: 1px solid rgb(161, 161, 161);
+}
+.row::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+.header {
+    display: flex;
+}
+.header img {
+    float: left;
+    width: 20%;
+    padding: 30px;
+}
+
+/* Elements ************************************************/
+select {
+    font-size: .9rem;
+    padding: 2px 5px;
+}
+textarea {
+    margin: auto;
+}
+.area {
+    margin: auto;
+}
+
+/* Modifiers ************************************************/
